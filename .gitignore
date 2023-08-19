@@ -16,7 +16,6 @@
 /MentalCare_CNU/[Bb]uilds/
 /MentalCare_CNU/[Oo]bj/
 
-
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
@@ -153,3 +152,4 @@ crashlytics-build.properties
 *.CopyComplete
 *.pref
 *.pref
+"Library/PackageCache" 
