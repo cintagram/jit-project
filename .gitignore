@@ -2,19 +2,20 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
-/MentalCare_CNU/[Ll]ibrary/
-/MentalCare_CNU/[Tt]emp/
-/MentalCare_CNU/[Ll]og/
-/MentalCare_CNU/[Bb]uild/
-/MentalCare_CNU/[Bb]uilds/
-/MentalCare_CNU/[Oo]bj/
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Mm]emoryCaptures/
+**/MentalCare_CNU/[Ll]ibrary/
+**/MentalCare_CNU/[Tt]emp/
+**/MentalCare_CNU/[Ll]og/
+**/MentalCare_CNU/[Bb]uild/
+**/MentalCare_CNU/[Bb]uilds/
+**/MentalCare_CNU/[Oo]bj/
+
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -151,5 +152,8 @@ crashlytics-build.properties
 *.force
 *.CopyComplete
 *.pref
+<<<<<<< HEAD
 *.pref
-"Library/PackageCache" 
+=======
+*.pref
+>>>>>>> parent of 46204765 (gitignore 수정)
