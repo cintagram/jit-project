@@ -41,12 +41,16 @@ public class GameFlowManager : MonoBehaviour
     public bool autoFindKarts = true;
     public ArcadeKart playerKart;
 
+    [Header("Countdown")]
+    public float Countdown = 3f;
+
     ArcadeKart[] karts;
     ObjectiveManager m_ObjectiveManager;
     TimeManager m_TimeManager;
     float m_TimeLoadEndGameScene;
     string m_SceneToLoad;
     float elapsedTimeBeforeEndScene = 0;
+
 
     void Start()
     {
@@ -85,7 +89,7 @@ public class GameFlowManager : MonoBehaviour
     }
 
     IEnumerator CountdownThenStartRaceRoutine() {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(Countdown);
         StartRace();
     }
 
